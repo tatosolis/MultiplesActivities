@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MA_Mayor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es mayor de edad"
+        android:textSize="40sp"
+        android:textColor="#89CD3A"
+        android:gravity="center"
+
+
+        />
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="350sp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/jaguar" />
+
+    <TextView
+        android:id="@+id/mult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numero1"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiplicado por"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/mult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numero 2"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/txtTotmul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="total multiplicación" />
+    <EditText
+        android:id="@+id/TxtCalculaMulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calcule el valor de multiplicacion"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/BtnProcesaMul"
+        android:layout_width="160sp"
+        android:layout_height="40sp"
+        android:text="Comparar"
+        android:layout_gravity="center"
+        android:onClick="comparaMult"
+        />
+
+</LinearLayout>

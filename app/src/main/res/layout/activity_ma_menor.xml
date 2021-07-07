@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MA_Menor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es menor de edad"
+        android:textSize="40sp"
+
+
+        />
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="350sp"
+        android:layout_gravity="center"
+        android:src="@drawable/biberon2" />
+
+    <TextView
+        android:id="@+id/sum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="suma1"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mas"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/sum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="suma2"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtTotSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="suma2" />
+
+    <EditText
+        android:id="@+id/TxtDigitaSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Ingrese valor de suma" />
+
+    <Button
+        android:layout_width="160sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_gravity="center"
+        android:text="Comparación"
+        android:onClick="compara" />
+</LinearLayout>
